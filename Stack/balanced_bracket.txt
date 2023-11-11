@@ -1,0 +1,20 @@
+Iteration through String Characters:
+- The algorithm traverses each character in the given string.
+
+Handling Opening Brackets:
+- When an opening bracket is encountered, it is pushed onto the stack.
+
+Processing Closing Brackets:
+- If a closing bracket is encountered:
+- An element is popped from the stack.
+- The popped element is matched with the closing bracket.
+
+Checking for Match:
+- If the popped element is an opening bracket of the same type, the brackets are considered matched.
+- If not, the set of brackets is deemed unbalanced.
+
+Empty Stack for Balanced Example:
+- At the end of the iteration, if the stack is empty, it indicates a balanced set of brackets.
+- Remaining Elements in Stack for Unbalanced Example:
+
+If the stack still contains elements after iteration, the brackets are unbalanced.
